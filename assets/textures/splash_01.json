@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "auto",
+	"frame": {"x":1,"y":603,"w":421,"h":322},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":322},
+	"sourceSize": {"w":421,"h":322}
+},
+{
+	"filename": "BGSelectorL",
+	"frame": {"x":424,"y":599,"w":307,"h":291},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":307,"h":291},
+	"sourceSize": {"w":307,"h":291}
+},
+{
+	"filename": "BGSelectorR",
+	"frame": {"x":943,"y":548,"w":451,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":451,"h":232},
+	"sourceSize": {"w":451,"h":232}
+},
+{
+	"filename": "btn_sonidoDown",
+	"frame": {"x":773,"y":447,"w":98,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":98,"h":99},
+	"sourceSize": {"w":102,"h":103}
+},
+{
+	"filename": "btn_sonidoNormal",
+	"frame": {"x":873,"y":447,"w":98,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":98,"h":99},
+	"sourceSize": {"w":102,"h":103}
+},
+{
+	"filename": "btn_sonidoOFFDown",
+	"frame": {"x":834,"y":855,"w":98,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":98,"h":99},
+	"sourceSize": {"w":102,"h":103}
+},
+{
+	"filename": "btn_sonidoOFFNormal",
+	"frame": {"x":934,"y":855,"w":98,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":98,"h":99},
+	"sourceSize": {"w":102,"h":103}
+},
+{
+	"filename": "btn_sonidoOFFOver",
+	"frame": {"x":626,"y":892,"w":102,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":103},
+	"sourceSize": {"w":102,"h":103}
+},
+{
+	"filename": "btn_sonidoOver",
+	"frame": {"x":730,"y":892,"w":102,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":103},
+	"sourceSize": {"w":102,"h":103}
+},
+{
+	"filename": "btnPlayMain_down",
+	"frame": {"x":320,"y":447,"w":149,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":150},
+	"sourceSize": {"w":149,"h":150}
+},
+{
+	"filename": "btnPlayMain_normal",
+	"frame": {"x":471,"y":447,"w":149,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":150},
+	"sourceSize": {"w":149,"h":150}
+},
+{
+	"filename": "btnPlayMain_over",
+	"frame": {"x":622,"y":447,"w":149,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":150},
+	"sourceSize": {"w":149,"h":150}
+},
+{
+	"filename": "clouds",
+	"frame": {"x":320,"y":1,"w":857,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":857,"h":444},
+	"sourceSize": {"w":857,"h":444}
+},
+{
+	"filename": "container",
+	"frame": {"x":35,"y":1,"w":283,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":283,"h":540},
+	"sourceSize": {"w":283,"h":540}
+},
+{
+	"filename": "imagen",
+	"frame": {"x":1,"y":1,"w":32,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":600},
+	"sourceSize": {"w":32,"h":600}
+},
+{
+	"filename": "logo",
+	"frame": {"x":733,"y":599,"w":208,"h":254},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":208,"h":254},
+	"sourceSize": {"w":208,"h":254}
+},
+{
+	"filename": "particulaHumo",
+	"frame": {"x":1,"y":927,"w":74,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":64},
+	"sourceSize": {"w":74,"h":64}
+},
+{
+	"filename": "title",
+	"frame": {"x":424,"y":892,"w":200,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":121},
+	"sourceSize": {"w":200,"h":121}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "splash_01.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3e662f798c0a19b36a5a42b741056dc5:07e83373f94736d5853af4889ca73e4d:e9f7788563a2d3757823d985c1827248$"
+}
+}

@@ -1,0 +1,92 @@
+{"frames": {
+
+"Glass/glass_01":
+{
+	"frame": {"x":2,"y":2,"w":39,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":5,"w":39,"h":43},
+	"sourceSize": {"w":82,"h":48}
+},
+"Glass/glass_02":
+{
+	"frame": {"x":43,"y":2,"w":48,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":2,"w":48,"h":46},
+	"sourceSize": {"w":82,"h":48}
+},
+"Glass/glass_03":
+{
+	"frame": {"x":93,"y":2,"w":50,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":0,"w":50,"h":48},
+	"sourceSize": {"w":82,"h":48}
+},
+"Glass/glass_04":
+{
+	"frame": {"x":145,"y":2,"w":60,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":60,"h":48},
+	"sourceSize": {"w":82,"h":48}
+},
+"Glass/glass_05":
+{
+	"frame": {"x":2,"y":52,"w":59,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":1,"w":59,"h":47},
+	"sourceSize": {"w":82,"h":48}
+},
+"Glass/glass_06":
+{
+	"frame": {"x":63,"y":52,"w":80,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":80,"h":48},
+	"sourceSize": {"w":82,"h":48}
+},
+"Glass/glass_07":
+{
+	"frame": {"x":145,"y":52,"w":82,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":82,"h":48},
+	"sourceSize": {"w":82,"h":48}
+},
+"player":
+{
+	"frame": {"x":2,"y":102,"w":199,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":113},
+	"sourceSize": {"w":199,"h":113}
+},
+"rocket":
+{
+	"frame": {"x":203,"y":102,"w":41,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":32},
+	"sourceSize": {"w":41,"h":32}
+},
+"smoke":
+{
+	"frame": {"x":2,"y":217,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Player.png",
+	"format": "RGBA8888",
+	"size": {"w":264,"h":264},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d5c8b72bc683211e836b77e4b1ac8939:c11483ec4932b9f427e4e57761c35ccf:67f262b79b5ce427cc4bd691e0602633$"
+}
+}

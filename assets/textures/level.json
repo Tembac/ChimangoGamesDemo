@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "cielo01",
+	"frame": {"x":1,"y":645,"w":1024,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":1024},
+	"sourceSize": {"w":1024,"h":1024}
+},
+{
+	"filename": "montanas",
+	"frame": {"x":1,"y":1,"w":1600,"h":320},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1600,"h":320},
+	"sourceSize": {"w":1600,"h":320}
+},
+{
+	"filename": "nubes",
+	"frame": {"x":1,"y":323,"w":1600,"h":320},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1600,"h":320},
+	"sourceSize": {"w":1600,"h":320}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level1.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ac734c0b1263f3df9af7510a1ed7fd5e:02723afcbfb439eea5c5d958b7223d9a:5f5106c2ad9bffd5678822c69a0d75ae$"
+}
+}

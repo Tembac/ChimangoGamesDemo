@@ -1,0 +1,8 @@
+{
+  "short_name": "Simple Runner",
+  "name": "Simple Runner",
+
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}

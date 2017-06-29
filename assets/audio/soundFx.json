@@ -1,0 +1,45 @@
+{
+  "resources": [
+    "soundFx.ogg",
+    "soundFx.m4a",
+    "soundFx.mp3",
+    "soundFx.ac3"
+  ],
+  "spritemap": {
+    "achievement_desbloqueado": {
+      "start": 0,
+      "end": 1.093514739229025,
+      "loop": false
+    },
+    "cassette": {
+      "start": 3,
+      "end": 3.2430839002267575,
+      "loop": false
+    },
+    "click_GUI": {
+      "start": 5,
+      "end": 5.593287981859411,
+      "loop": false
+    },
+    "moto_andando": {
+      "start": 7,
+      "end": 9.396213151927437,
+      "loop": true
+    },
+    "muerte_enemigo": {
+      "start": 11,
+      "end": 12.061065759637188,
+      "loop": false
+    },
+    "muerte_jugador": {
+      "start": 14,
+      "end": 15.045895691609978,
+      "loop": false
+    },
+    "salto_moto": {
+      "start": 17,
+      "end": 18.607414965986393,
+      "loop": false
+    }
+  }
+}
