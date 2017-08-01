@@ -10,7 +10,7 @@
     "build:cssDir": "mkdirp build/css",
     "build:css": "cleancss css/main.css -o build/css/main.min.css --skip-rebase",
     "build:html": "htmlprocessor index.html -o build/index.html",
-    "copy:all": "npm run copy:libDir && npm run copy:assets && npm run copy:manifest && npm run copy:Phaser && npm run copy:Spriter && npm run copy:canvasImageSaver",
+    "copy:all": "npm run copy:libDir && npm run copy:assets && npm run copy:manifest && npm run copy:Phaser && npm run copy:Spriter",
     "copy:assets": "ncp assets build/assets/",
     "copy:libDir": "mkdirp build/lib",
     "copy:Phaser": "ncp lib/phaser.min.js build/lib/phaser.min.js",

@@ -5,7 +5,7 @@ export default class extends Phaser.Sprite
 {
   constructor (game)
   {
-    super(game, 0, 0, "HUD");
+    super(game, 0, 0, "HUD", "particleCake/particleCake00");
 
     game.physics.enable(this, Phaser.Physics.ARCADE);
 

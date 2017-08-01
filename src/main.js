@@ -19,7 +19,21 @@ window.onload = function() {
 		gameOptions.main.screenScale =  innerHeight/innerWidth;
 	}
 
-	var game = new Phaser.Game(Math.ceil(600*gameOptions.main.screenScale), 600, Phaser.CANVAS);
+  var cfg = {
+      width: Math.ceil(600*gameOptions.main.screenScale),
+      height: 600,
+      renderer: Phaser.WEBGL,
+      // renderer: Phaser.CANVAS,
+      antialias: true,
+      multiTexture: true,
+      enableDebug: (indexInfo.buildState=="Debug"),
+    };
+
+	var game = new Phaser.Game(cfg);
+
+  //the screen is already cleared by the background
+  game.clearBeforeRender = false;
+
   // adding game state
   game.state.add("Boot", BootState);
   game.state.add("Preloader", Preloader);
@@ -28,5 +42,4 @@ window.onload = function() {
 
   // starting game state
   game.state.start("Boot");
-
 };

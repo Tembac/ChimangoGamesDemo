@@ -5,7 +5,7 @@ export default class extends Phaser.Sprite
 {
   constructor (game)
   {
-    super(game, 0, 0, "enemy");
+    super(game, 0, 0, "enemy", "anim_Enemigo_idle_000");
 
     game.physics.enable(this, Phaser.Physics.ARCADE);
 

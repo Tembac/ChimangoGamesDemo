@@ -24,7 +24,7 @@
     "moto_andando": {
       "start": 7,
       "end": 9.396213151927437,
-      "loop": true
+      "loop": false
     },
     "muerte_enemigo": {
       "start": 11,

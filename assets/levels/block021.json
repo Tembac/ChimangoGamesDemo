@@ -2,7 +2,6 @@
  "layers":[
         {
          "draworder":"topdown",
-         "height":100,
          "name":"Object Layer 1",
          "objects":[
                 {
@@ -16,50 +15,6 @@
                  "width":128,
                  "x":5967.75757575758,
                  "y":740
-                }, 
-                {
-                 "height":52.2466,
-                 "id":206,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":900,
-                 "x":1704.21212121212,
-                 "y":599.147639393939
-                }, 
-                {
-                 "height":52.2466,
-                 "id":258,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":900,
-                 "x":686.030303030303,
-                 "y":699.268851515151
-                }, 
-                {
-                 "height":60.6060606060606,
-                 "id":355,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1281.81818181818,
-                 "x":5248,
-                 "y":547.030303030303
-                }, 
-                {
-                 "height":54.5454545454546,
-                 "id":356,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1196.9696969697,
-                 "x":6667.0303030303,
-                 "y":577.818181818182
                 }, 
                 {
                  "gid":1,
@@ -976,13 +931,13 @@
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":100,
          "x":0,
          "y":0
         }],
  "nextobjectid":481,
  "orientation":"orthogonal",
  "renderorder":"right-down",
+ "tiledversion":"1.0.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -997,16 +952,21 @@
             {
              "0":
                 {
-                 "image":"img\/torta.png"
+                 "image":"img\/torta.png",
+                 "imageheight":58,
+                 "imagewidth":71
                 },
              "1":
                 {
-                 "image":"img\/Enemy.png"
+                 "image":"img\/Enemy.png",
+                 "imageheight":101,
+                 "imagewidth":120
                 }
             },
          "tilewidth":128
         }],
  "tilewidth":32,
+ "type":"map",
  "version":1,
  "width":250
 }

@@ -2,75 +2,8 @@
  "layers":[
         {
          "draworder":"topdown",
-         "height":100,
          "name":"Object Layer 1",
          "objects":[
-                {
-                 "height":52.2466039707419,
-                 "id":3,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1322.18181818182,
-                 "x":96,
-                 "y":704
-                }, 
-                {
-                 "height":52.2466,
-                 "id":40,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1902,
-                 "x":5998,
-                 "y":676
-                }, 
-                {
-                 "height":36,
-                 "id":329,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":560,
-                 "x":1928,
-                 "y":487
-                }, 
-                {
-                 "height":32,
-                 "id":331,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":2860,
-                 "x":1508,
-                 "y":840
-                }, 
-                {
-                 "height":36,
-                 "id":332,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":888,
-                 "x":3292,
-                 "y":490
-                }, 
-                {
-                 "height":36,
-                 "id":333,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1580,
-                 "x":4500,
-                 "y":785
-                }, 
                 {
                  "gid":1,
                  "height":58,
@@ -1358,13 +1291,13 @@
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":100,
          "x":0,
          "y":0
         }],
  "nextobjectid":478,
  "orientation":"orthogonal",
  "renderorder":"right-down",
+ "tiledversion":"1.0.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -1379,16 +1312,21 @@
             {
              "0":
                 {
-                 "image":"img\/torta.png"
+                 "image":"img\/torta.png",
+                 "imageheight":58,
+                 "imagewidth":71
                 },
              "1":
                 {
-                 "image":"img\/Enemy.png"
+                 "image":"img\/Enemy.png",
+                 "imageheight":101,
+                 "imagewidth":120
                 }
             },
          "tilewidth":128
         }],
  "tilewidth":32,
+ "type":"map",
  "version":1,
  "width":250
 }

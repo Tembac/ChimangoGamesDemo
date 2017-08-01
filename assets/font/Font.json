@@ -1,0 +1,990 @@
+{
+
+	"font": {
+		"info": {
+			"_comment": "conversion del xml a json con https://codebeautify.org/xmltojson",
+			"_face": "C:\\Users\\Claudio\\Desktop\\PowerPuff\\Art\\UI\\Font",
+			"_size": "80"
+		},
+		"common": {
+			"_lineHeight": "80",
+			"_scaleW": "454",
+			"_scaleH": "457",
+			"_pages": "1"
+		},
+		"pages": {
+			"page": {
+				"_id": "0",
+				"_file": "C:\\Users\\Claudio\\Desktop\\PowerPuff\\Art\\UI\\Font.png"
+			}
+		},
+		"chars": {
+			"char": [
+				{
+					"_id": "33",
+					"_x": "433",
+					"_y": "154",
+					"_width": "19",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "20"
+				},
+				{
+					"_id": "34",
+					"_x": "157",
+					"_y": "261",
+					"_width": "35",
+					"_height": "26",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "36"
+				},
+				{
+					"_id": "35",
+					"_x": "202",
+					"_y": "312",
+					"_width": "34",
+					"_height": "33",
+					"_xoffset": "0",
+					"_yoffset": "39",
+					"_xadvance": "35"
+				},
+				{
+					"_id": "36",
+					"_x": "374",
+					"_y": "308",
+					"_width": "37",
+					"_height": "71",
+					"_xoffset": "0",
+					"_yoffset": "20",
+					"_xadvance": "38"
+				},
+				{
+					"_id": "37",
+					"_x": "104",
+					"_y": "410",
+					"_width": "42",
+					"_height": "46",
+					"_xoffset": "0",
+					"_yoffset": "32",
+					"_xadvance": "43"
+				},
+				{
+					"_id": "38",
+					"_x": "0",
+					"_y": "391",
+					"_width": "52",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "53"
+				},
+				{
+					"_id": "39",
+					"_x": "376",
+					"_y": "102",
+					"_width": "24",
+					"_height": "26",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "25"
+				},
+				{
+					"_id": "40",
+					"_x": "412",
+					"_y": "312",
+					"_width": "20",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "21"
+				},
+				{
+					"_id": "41",
+					"_x": "433",
+					"_y": "312",
+					"_width": "20",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "21"
+				},
+				{
+					"_id": "42",
+					"_x": "273",
+					"_y": "417",
+					"_width": "33",
+					"_height": "34",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "34"
+				},
+				{
+					"_id": "43",
+					"_x": "75",
+					"_y": "52",
+					"_width": "33",
+					"_height": "33",
+					"_xoffset": "0",
+					"_yoffset": "39",
+					"_xadvance": "34"
+				},
+				{
+					"_id": "44",
+					"_x": "307",
+					"_y": "417",
+					"_width": "24",
+					"_height": "26",
+					"_xoffset": "0",
+					"_yoffset": "62",
+					"_xadvance": "25"
+				},
+				{
+					"_id": "45",
+					"_x": "56",
+					"_y": "308",
+					"_width": "39",
+					"_height": "17",
+					"_xoffset": "0",
+					"_yoffset": "47",
+					"_xadvance": "40"
+				},
+				{
+					"_id": "46",
+					"_x": "109",
+					"_y": "176",
+					"_width": "19",
+					"_height": "18",
+					"_xoffset": "0",
+					"_yoffset": "62",
+					"_xadvance": "20"
+				},
+				{
+					"_id": "47",
+					"_x": "201",
+					"_y": "354",
+					"_width": "45",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "48",
+					"_x": "294",
+					"_y": "154",
+					"_width": "41",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "42"
+				},
+				{
+					"_id": "49",
+					"_x": "409",
+					"_y": "102",
+					"_width": "30",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "31"
+				},
+				{
+					"_id": "50",
+					"_x": "293",
+					"_y": "312",
+					"_width": "43",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "44"
+				},
+				{
+					"_id": "51",
+					"_x": "126",
+					"_y": "0",
+					"_width": "47",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "48"
+				},
+				{
+					"_id": "52",
+					"_x": "109",
+					"_y": "52",
+					"_width": "48",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "49"
+				},
+				{
+					"_id": "53",
+					"_x": "293",
+					"_y": "364",
+					"_width": "42",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "43"
+				},
+				{
+					"_id": "54",
+					"_x": "294",
+					"_y": "102",
+					"_width": "41",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "42"
+				},
+				{
+					"_id": "55",
+					"_x": "157",
+					"_y": "210",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "56",
+					"_x": "336",
+					"_y": "204",
+					"_width": "38",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "39"
+				},
+				{
+					"_id": "57",
+					"_x": "294",
+					"_y": "206",
+					"_width": "41",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "42"
+				},
+				{
+					"_id": "58",
+					"_x": "410",
+					"_y": "53",
+					"_width": "19",
+					"_height": "34",
+					"_xoffset": "0",
+					"_yoffset": "46",
+					"_xadvance": "20"
+				},
+				{
+					"_id": "59",
+					"_x": "336",
+					"_y": "414",
+					"_width": "24",
+					"_height": "42",
+					"_xoffset": "0",
+					"_yoffset": "46",
+					"_xadvance": "25"
+				},
+				{
+					"_id": "60",
+					"_x": "174",
+					"_y": "0",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "61",
+					"_x": "238",
+					"_y": "417",
+					"_width": "34",
+					"_height": "28",
+					"_xoffset": "0",
+					"_yoffset": "42",
+					"_xadvance": "35"
+				},
+				{
+					"_id": "62",
+					"_x": "158",
+					"_y": "52",
+					"_width": "46",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "47"
+				},
+				{
+					"_id": "63",
+					"_x": "374",
+					"_y": "380",
+					"_width": "35",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "36"
+				},
+				{
+					"_id": "64",
+					"_x": "0",
+					"_y": "338",
+					"_width": "52",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "53"
+				},
+				{
+					"_id": "65",
+					"_x": "53",
+					"_y": "391",
+					"_width": "50",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "51"
+				},
+				{
+					"_id": "66",
+					"_x": "266",
+					"_y": "0",
+					"_width": "41",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "42"
+				},
+				{
+					"_id": "67",
+					"_x": "250",
+					"_y": "102",
+					"_width": "43",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "44"
+				},
+				{
+					"_id": "68",
+					"_x": "247",
+					"_y": "365",
+					"_width": "45",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "69",
+					"_x": "337",
+					"_y": "308",
+					"_width": "35",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "36"
+				},
+				{
+					"_id": "70",
+					"_x": "375",
+					"_y": "204",
+					"_width": "33",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "34"
+				},
+				{
+					"_id": "71",
+					"_x": "109",
+					"_y": "105",
+					"_width": "47",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "48"
+				},
+				{
+					"_id": "72",
+					"_x": "249",
+					"_y": "208",
+					"_width": "44",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "45"
+				},
+				{
+					"_id": "73",
+					"_x": "409",
+					"_y": "207",
+					"_width": "23",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "24"
+				},
+				{
+					"_id": "74",
+					"_x": "200",
+					"_y": "407",
+					"_width": "37",
+					"_height": "49",
+					"_xoffset": "0",
+					"_yoffset": "31",
+					"_xadvance": "38"
+				},
+				{
+					"_id": "75",
+					"_x": "248",
+					"_y": "261",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "76",
+					"_x": "375",
+					"_y": "255",
+					"_width": "33",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "34"
+				},
+				{
+					"_id": "77",
+					"_x": "0",
+					"_y": "204",
+					"_width": "56",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "57"
+				},
+				{
+					"_id": "78",
+					"_x": "220",
+					"_y": "0",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "79",
+					"_x": "57",
+					"_y": "204",
+					"_width": "50",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "51"
+				},
+				{
+					"_id": "80",
+					"_x": "308",
+					"_y": "0",
+					"_width": "40",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "41"
+				},
+				{
+					"_id": "81",
+					"_x": "57",
+					"_y": "256",
+					"_width": "50",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "51"
+				},
+				{
+					"_id": "82",
+					"_x": "247",
+					"_y": "312",
+					"_width": "45",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "83",
+					"_x": "336",
+					"_y": "102",
+					"_width": "39",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "40"
+				},
+				{
+					"_id": "84",
+					"_x": "336",
+					"_y": "257",
+					"_width": "38",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "39"
+				},
+				{
+					"_id": "85",
+					"_x": "157",
+					"_y": "105",
+					"_width": "46",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "47"
+				},
+				{
+					"_id": "86",
+					"_x": "104",
+					"_y": "359",
+					"_width": "49",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "50"
+				},
+				{
+					"_id": "87",
+					"_x": "0",
+					"_y": "51",
+					"_width": "74",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "75"
+				},
+				{
+					"_id": "88",
+					"_x": "0",
+					"_y": "102",
+					"_width": "57",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "58"
+				},
+				{
+					"_id": "89",
+					"_x": "108",
+					"_y": "249",
+					"_width": "48",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "49"
+				},
+				{
+					"_id": "90",
+					"_x": "205",
+					"_y": "51",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "91",
+					"_x": "409",
+					"_y": "154",
+					"_width": "23",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "24"
+				},
+				{
+					"_id": "92",
+					"_x": "203",
+					"_y": "208",
+					"_width": "45",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "93",
+					"_x": "412",
+					"_y": "258",
+					"_width": "22",
+					"_height": "53",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "23"
+				},
+				{
+					"_id": "94",
+					"_x": "58",
+					"_y": "154",
+					"_width": "50",
+					"_height": "42",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "51"
+				},
+				{
+					"_id": "95",
+					"_x": "109",
+					"_y": "158",
+					"_width": "39",
+					"_height": "17",
+					"_xoffset": "0",
+					"_yoffset": "63",
+					"_xadvance": "40"
+				},
+				{
+					"_id": "96",
+					"_x": "129",
+					"_y": "176",
+					"_width": "18",
+					"_height": "18",
+					"_xoffset": "0",
+					"_yoffset": "32",
+					"_xadvance": "19"
+				},
+				{
+					"_id": "97",
+					"_x": "53",
+					"_y": "338",
+					"_width": "50",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "51"
+				},
+				{
+					"_id": "98",
+					"_x": "294",
+					"_y": "258",
+					"_width": "41",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "42"
+				},
+				{
+					"_id": "99",
+					"_x": "251",
+					"_y": "51",
+					"_width": "43",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "44"
+				},
+				{
+					"_id": "100",
+					"_x": "204",
+					"_y": "105",
+					"_width": "45",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "101",
+					"_x": "349",
+					"_y": "0",
+					"_width": "35",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "36"
+				},
+				{
+					"_id": "102",
+					"_x": "375",
+					"_y": "153",
+					"_width": "33",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "34"
+				},
+				{
+					"_id": "103",
+					"_x": "154",
+					"_y": "301",
+					"_width": "47",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "48"
+				},
+				{
+					"_id": "104",
+					"_x": "249",
+					"_y": "157",
+					"_width": "44",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "45"
+				},
+				{
+					"_id": "105",
+					"_x": "385",
+					"_y": "0",
+					"_width": "23",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "24"
+				},
+				{
+					"_id": "106",
+					"_x": "336",
+					"_y": "364",
+					"_width": "37",
+					"_height": "49",
+					"_xoffset": "0",
+					"_yoffset": "31",
+					"_xadvance": "38"
+				},
+				{
+					"_id": "107",
+					"_x": "154",
+					"_y": "406",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "108",
+					"_x": "376",
+					"_y": "51",
+					"_width": "33",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "34"
+				},
+				{
+					"_id": "109",
+					"_x": "0",
+					"_y": "256",
+					"_width": "56",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "57"
+				},
+				{
+					"_id": "110",
+					"_x": "203",
+					"_y": "157",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "111",
+					"_x": "75",
+					"_y": "0",
+					"_width": "50",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "51"
+				},
+				{
+					"_id": "112",
+					"_x": "295",
+					"_y": "51",
+					"_width": "40",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "41"
+				},
+				{
+					"_id": "113",
+					"_x": "58",
+					"_y": "102",
+					"_width": "50",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "51"
+				},
+				{
+					"_id": "114",
+					"_x": "157",
+					"_y": "157",
+					"_width": "45",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "115",
+					"_x": "336",
+					"_y": "51",
+					"_width": "39",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "40"
+				},
+				{
+					"_id": "116",
+					"_x": "336",
+					"_y": "153",
+					"_width": "38",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "39"
+				},
+				{
+					"_id": "117",
+					"_x": "154",
+					"_y": "354",
+					"_width": "46",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "47"
+				},
+				{
+					"_id": "118",
+					"_x": "104",
+					"_y": "308",
+					"_width": "49",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "50"
+				},
+				{
+					"_id": "119",
+					"_x": "0",
+					"_y": "0",
+					"_width": "74",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "75"
+				},
+				{
+					"_id": "120",
+					"_x": "0",
+					"_y": "153",
+					"_width": "57",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "58"
+				},
+				{
+					"_id": "121",
+					"_x": "108",
+					"_y": "197",
+					"_width": "48",
+					"_height": "51",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "49"
+				},
+				{
+					"_id": "122",
+					"_x": "202",
+					"_y": "261",
+					"_width": "45",
+					"_height": "50",
+					"_xoffset": "0",
+					"_yoffset": "30",
+					"_xadvance": "46"
+				},
+				{
+					"_id": "123",
+					"_x": "410",
+					"_y": "380",
+					"_width": "23",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "24"
+				},
+				{
+					"_id": "124",
+					"_x": "434",
+					"_y": "365",
+					"_width": "15",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "16"
+				},
+				{
+					"_id": "125",
+					"_x": "410",
+					"_y": "0",
+					"_width": "23",
+					"_height": "52",
+					"_xoffset": "0",
+					"_yoffset": "29",
+					"_xadvance": "24"
+				},
+				{
+					"_id": "126",
+					"_x": "0",
+					"_y": "308",
+					"_width": "55",
+					"_height": "29",
+					"_xoffset": "0",
+					"_yoffset": "37",
+					"_xadvance": "56"
+				},
+				{
+					"_id": "32",
+					"_x": "0",
+					"_y": "0",
+					"_width": "0",
+					"_height": "0",
+					"_xoffset": "0",
+					"_yoffset": "0",
+					"_xadvance": "20"
+				},
+				{
+					"_id": "9",
+					"_x": "0",
+					"_y": "0",
+					"_width": "0",
+					"_height": "0",
+					"_xoffset": "0",
+					"_yoffset": "0",
+					"_xadvance": "160"
+				}
+			],
+			"_count": "96"
+		},
+		"kernings": {
+			"_count": "0"
+		}
+	}
+}

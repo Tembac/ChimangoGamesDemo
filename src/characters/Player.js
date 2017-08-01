@@ -5,25 +5,30 @@ export default class extends Phaser.Sprite
 {
   constructor (game)
   {
-    super(game, 0, 0);
+    super(game, 0, 200);
 
     game.physics.enable(this, Phaser.Physics.ARCADE);
-    this.anchor.set(1, .5);
-    this.body.setSize(122, 105, 105, 75);
-
-    var spriterLoader = new Spriter.Loader();
-    var spriterFile = new Spriter.SpriterJSON(game.cache.getJSON("playerAnim"),
-    { imageNameType: Spriter.eImageNameType.FULL_PATH_NO_EXTENSION });
-    var spriterData = spriterLoader.load(spriterFile);
-    this.spriterGroup = new Spriter.SpriterGroup(game, spriterData, "playerAtlas", "Player");
-    game.world.add(this.spriterGroup);
-
-    this.spriterDeviation = new Phaser.Point(195, 180)
-    this.spriterGroup.position.setTo( this.spriterDeviation.x, this.spriterDeviation.y);
+    this.anchor.set(0);
+    this.body.setSize(115, 105, 105, 75);
 
     this.alpha = 0;
 
-    this.spriterGroup.playAnimationByName("Avanzar");
+    var spriterLoader = new Spriter.Loader();
+    var spriterFile = new Spriter.SpriterJSON(this.game.cache.getJSON("playerAnim"),
+    { imageNameType: Spriter.eImageNameType.FULL_PATH_NO_EXTENSION });
+    var spriterData = spriterLoader.load(spriterFile);
+
+    this.spriterGroup = new Spriter.SpriterGroup(this.game, spriterData, "playerAtlas", "Player", "Avanzar");
+    // this.spriterGroup.forEach(function(item) {
+    //
+    //   game.physics.enable(item, Phaser.Physics.ARCADE);
+    //
+    // }, this);
+    // this.spriterGroup.playAnimationByName("Avanzar");
+    this.game.world.add(this.spriterGroup);
+
+    this.spriterDeviation = new Phaser.Point(180, 185);
+    this.spriterGroup.position.setTo(this.x + this.spriterDeviation.x, this.y + this.spriterDeviation.y);
 
     // this.spriterGroup.onFinish.add(this.spriterAnimationFinished, this);
     // this.spriterGroup.onLoop.add(this.spriterAnimationLoopFinished, this);
@@ -92,7 +97,8 @@ export default class extends Phaser.Sprite
 
   update ()
   {
-    if(gameOptions.main.gamePaused)
+    if(gameOptions.main.gamePaused
+    || gameOptions.main.lvlFlowState != gameOptions.main.lvlFlowPlaying)
     {
       return;
     }
@@ -177,8 +183,8 @@ export default class extends Phaser.Sprite
     var bullet = physicOptions.BULLET_POOL.getFirstDead();
     if (bullet === null || bullet === undefined) return;
 
-    bullet.revive();
     bullet.reset(this.body.position.x + this.body.width, this.body.position.y + this.body.height *.5);
+    bullet.revive();
 
     bullet.checkWorldBounds = true;
     bullet.outOfBoundsKill = true;
@@ -188,7 +194,8 @@ export default class extends Phaser.Sprite
 
   animatePlayer ()
   {
-    this.spriterGroup.updateAnimation();
     this.spriterGroup.position.setTo(this.x + this.spriterDeviation.x, this.y + this.spriterDeviation.y);
+    this.spriterGroup.updateAnimation();
+
   }
 }

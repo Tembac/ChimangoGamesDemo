@@ -1,6 +1,6 @@
 export default {
   main: {
-  version: "v1.19",
+  version: "v1.24",
   music:null,
   soundFx:null,
   FXEnabled:true,

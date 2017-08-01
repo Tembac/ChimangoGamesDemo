@@ -12,6 +12,7 @@ import InGameHud from "../ui/InGameHud"
 export default class extends Phaser.State
 {
   create () {
+
     this.levelSpawnX = this.game.width;
 
     this.physics.startSystem(Phaser.Physics.ARCADE);
@@ -47,6 +48,8 @@ export default class extends Phaser.State
 
     //level
     this.elementsLevel = [];
+    this.elementsLevelLength = 0;
+
     this.allObjects = 0;
     //enemies
     this.enemiesGroup = this.game.add.group();
@@ -69,12 +72,16 @@ export default class extends Phaser.State
     //framerate only on debug
     if(indexInfo.buildState == "Debug")
     {
-      this.game.time.advancedTiming = true;
-      this.txtFPS = this.add.bitmapText(15, this.game.height - 20,'gameFont', '0', 57);
-     this.txtFPS.fixedToCamera = true;
+      this.txtFPS = this.add.bitmapText(15, this.game.height - 20,'gameFont', '0', 18);
+      this.txtFPS.fixedToCamera = true;
       this.txtFPS.visible = true;
       this.txtFPS.anchor.set(0,1);
     }
+
+    this.game.time.advancedTiming = true;
+    //30 fps for update logic is safer for slower devices.
+    this.game.time.desiredFps = 30;
+    // this.game.time.slowMotion = 2;
 
     this.startIntroState();
   }
@@ -142,10 +149,13 @@ export default class extends Phaser.State
   }
 
   update (){
+
     //framerate
     if(indexInfo.buildState == "Debug")
     {
-		  this.txtFPS.text = gameOptions.main.version + " FPS: " + this.game.time.fps;
+		  this.txtFPS.text = gameOptions.main.version
+      + " /render type: " + this.game.renderType
+      + " /render FPS: " + this.game.time.fps;
     }
 
     if(this.physics.arcade.isPaused
@@ -184,9 +194,9 @@ export default class extends Phaser.State
     this.levelSpeed = Math.max(this.levelSpeed, physicOptions.MAX_LEVEL_SPEED);
     physicOptions.MOVE_AMOUNT = this.levelSpeed;
 
-    this.LevelSpawnDistanceGuide -= physicOptions.MOVE_AMOUNT / 60;
+    this.LevelSpawnDistanceGuide -= physicOptions.MOVE_AMOUNT * this.game.time.physicsElapsed;
     var lastPiece = false;
-    if(this.nextLevelElementIndex >= this.elementsLevel.length-1)
+    if(this.nextLevelElementIndex >= this.elementsLevelLength-1)
     {
       lastPiece = true;
     }
@@ -195,15 +205,17 @@ export default class extends Phaser.State
       var elementX = this.elementsLevel[this.nextLevelElementIndex].x;
       if(this.LevelSpawnDistanceGuide >= elementX)
       {
+
+        //x correction fixes the delay between updates.
+        //A piece can need to be spawned between updates.
+        //x correction corrige el desfasaje que existe entre updates.
+        //Cada update se genera a cierta distancia y algunos elementos pueden estar entre esa distancia.
+        var xCorrection = this.LevelSpawnDistanceGuide - elementX;
         var obj = this.elementsLevel[this.nextLevelElementIndex];
-        this.spawnLevelElement(obj);
+        this.spawnLevelElement(obj, xCorrection);
 
         this.nextLevelElementIndex++;
-        var nextElementX = this.elementsLevel[this.nextLevelElementIndex].x;
-        if(elementX == nextElementX)
-        {
-          this.levelUpdate();
-        }
+
       }
     }
     else
@@ -282,15 +294,15 @@ export default class extends Phaser.State
     physicOptions.MOVE_AMOUNT = 0;
   }
 
-  spawnLevelElement(obj)
+  spawnLevelElement(obj, spawnXcorrection)
   {
     switch(obj.gid)
     {
       case 1:
-        this.addCollectible(this.levelSpawnX, obj.y);
+        this.addCollectible(this.levelSpawnX - spawnXcorrection, obj.y);
       break;
       case 2:
-        this.addEnemy(this.levelSpawnX, obj.y);
+        this.addEnemy(this.levelSpawnX - spawnXcorrection, obj.y);
       break;
     }
   }
@@ -312,6 +324,8 @@ export default class extends Phaser.State
     });
     this.nextLevelElementIndex = 0;
 
+    this.elementsLevelLength = this.elementsLevel.length;
+
     //counts level objects
     // this.liveEnemies = this.enemiesGroup.countLiving();
     // this.deadEnemies = this.enemiesGroup.countDead();
@@ -321,10 +335,15 @@ export default class extends Phaser.State
   }
 
   render(){
+    if(indexInfo.buildState != "Debug")
+    {
+      return;
+    }
     // this.game.debug.body(this.player);
     //
     // this.enemiesGroup.forEachAlive(this.renderGroup, this);
     // this.collectibleGroup.forEachAlive(this.renderGroup, this);
+    // this.player.spriterGroup.forEachAlive(this.renderGroup, this);
   }
 
   renderGroup(member){

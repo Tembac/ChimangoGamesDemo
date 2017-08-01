@@ -24,6 +24,7 @@ export default class extends Phaser.State
     this.scale.pageAlignHorizontally = true;
     this.scale.pageAlignVertically = true;
 
+    this.game.fpsProblemNotifier.add(this.fpsProblemSolve, this);
   }
 
   preload ()
@@ -47,6 +48,11 @@ export default class extends Phaser.State
   {
     document.getElementById('orientation').style.display = 'none';
     this.game.paused = false;
+  }
+
+  fpsProblemSolve ()
+  {
+    this.game.time.desiredFps = this.game.time.suggestedFps;
   }
 
 }

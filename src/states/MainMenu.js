@@ -92,8 +92,8 @@ export default class extends Phaser.State
 
 	btnAudioOnClick() {
 
-		gameOptions.main.soundFx.play("click_GUI");
 		this.game.sound.mute = !this.game.sound.mute;
+    gameOptions.main.soundFx.play("click_GUI");
 		localStorage.setItem("SRmuteState", JSON.stringify(this.game.sound.mute));
 		if(this.game.sound.mute)
 		{

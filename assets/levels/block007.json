@@ -2,31 +2,8 @@
  "layers":[
         {
          "draworder":"topdown",
-         "height":100,
          "name":"Object Layer 1",
          "objects":[
-                {
-                 "height":52.2466039707419,
-                 "id":3,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":3648,
-                 "x":64,
-                 "y":832
-                }, 
-                {
-                 "height":32,
-                 "id":33,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1472,
-                 "x":6464,
-                 "y":640
-                }, 
                 {
                  "gid":2,
                  "height":134,
@@ -38,17 +15,6 @@
                  "width":128,
                  "x":4925.33333333333,
                  "y":428.242424242424
-                }, 
-                {
-                 "height":32,
-                 "id":70,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":1856,
-                 "x":4416,
-                 "y":672
                 }, 
                 {
                  "gid":1,
@@ -179,8 +145,8 @@
                  "type":"",
                  "visible":true,
                  "width":71,
-                 "x":1248,
-                 "y":640
+                 "x":1254,
+                 "y":644
                 }, 
                 {
                  "gid":1,
@@ -1061,13 +1027,13 @@
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":100,
          "x":0,
          "y":0
         }],
  "nextobjectid":274,
  "orientation":"orthogonal",
  "renderorder":"right-down",
+ "tiledversion":"1.0.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -1082,16 +1048,21 @@
             {
              "0":
                 {
-                 "image":"img\/torta.png"
+                 "image":"img\/torta.png",
+                 "imageheight":58,
+                 "imagewidth":71
                 },
              "1":
                 {
-                 "image":"img\/Enemy.png"
+                 "image":"img\/Enemy.png",
+                 "imageheight":101,
+                 "imagewidth":120
                 }
             },
          "tilewidth":128
         }],
  "tilewidth":32,
+ "type":"map",
  "version":1,
  "width":250
 }

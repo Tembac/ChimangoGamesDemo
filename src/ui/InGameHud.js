@@ -138,7 +138,6 @@ export default class extends Phaser.Group
   autoHideCursor()
   {
     //hide mouse
-    var mousePos = new Phaser.Point(this.cursor.x, this.cursor.y);
 		if (this.prevMousePos.equals(this.cursor))
 		{
 			this.hideMouseCount += this.game.time.elapsedMS;
